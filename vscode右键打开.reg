@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+	
+[HKEY_CLASSES_ROOT\*\shell\VisualCode]
+@="Open with Code"
+"Icon"="C:\\Users\\yphy9\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+	
+[HKEY_CLASSES_ROOT\*\shell\VisualCode\Command]
+@="\"C:\\Users\\yphy9\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" \"%1\""
+	
+Windows Registry Editor Version 5.00
+	
+[HKEY_CLASSES_ROOT\Directory\shell\VisualCode]
+@="Open with Code"
+"Icon"="C:\\Users\\yphy9\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+	
+[HKEY_CLASSES_ROOT\Directory\shell\VisualCode\Command]
+@="\"C:\\Users\\yphy9\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
+	
+Windows Registry Editor Version 5.00
+	
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VisualCode]
+@="Open with Code"
+"Icon"="C:\\Users\\yphy9\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+	
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VisualCode\Command]
+@="\"C:\\Users\\yphy9\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
